@@ -1,0 +1,20 @@
+Author: Nadan Gergeo
+Email: nadan.gergeo@gmail.com
+
+Any questions? Mail me!
+
+This i an app that installs speakable items (applescripts) for Plex.
+
+How to use:
+1. First you need to download and install the scripting addon XMLTools2 as the scripts depend on it.
+http://www.latenightsw.com/freeware/XMLTools2/
+
+2. Open the app.
+
+3. Open Plex media manager and check out in which place the tv show section is. If it's the second section, then the section number is 2. Enter that in the app.
+
+4. Change any other setting you need to change.
+
+5. Click "Install scripts"
+
+Done!
