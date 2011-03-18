@@ -1,3 +1,0 @@
-/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/xmlparser.m:14: warning: incomplete implementation of class 'xmlparser'
-/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/xmlparser.m:14: warning: method definition for '-parser:didStartElement:namespaceURI:qualifiedName:attributes:' not found
-/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/xmlparser.m:14: warning: method definition for '-loadDataFromXML' not found

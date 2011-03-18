@@ -1,464 +1,0 @@
-TPleech
-v7
-r0
-t322099004.681099
-cCheck dependencies
-cProcessInfoPlistFile "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Info.plist" Pleech-Info.plist
-cCopyStringsFile "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
-cCompileXIB "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/English.lproj/MainMenu.xib"
-cCpResource build/Release/Pleech.app/Contents/Resources/APPL.icns APPL.icns
-cProcessPCH /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-aydgmfwfonjsfhcbtdabslrnzjgs/Pleech_Prefix.pch.gch Pleech_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-dzhhxqscumtqligomcncapnxurhb/Pleech_Prefix.pch.gch Pleech_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-ctaxxpoigeyfnedrakhffwwgnxid/Pleech_Prefix.pch.gch Pleech_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/main.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/PleechAppDelegate.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/AppController.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/i386/main.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/i386/PleechAppDelegate.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/i386/AppController.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/main.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/Pleech" normal x86_64
-cCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/PleechAppDelegate.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/Pleech" normal i386
-cCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/AppController.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/Pleech" normal ppc
-cCreateUniversalBinary "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/MacOS/Pleech" normal "x86_64 i386 ppc"
-cGenerateDSYMFile "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app.dSYM" "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/MacOS/Pleech"
-cTouch "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app"
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004B99A23900000000000000EE
-t1268359737
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B447F4E00000000000013E6
-t1262780238
-s5094
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/APPL.icns
-c000000004D829A96000000000004DB45
-t1300404886
-s318277
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.h
-c000000004D828BCC0000000000000310
-t1300401100
-s784
-i<Cocoa/Cocoa.h>
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m
-c000000004D8296080000000000001216
-t1300403720
-s4630
-i"AppController.h"
-i<Foundation/Foundation.h>
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/English.lproj/InfoPlist.strings
-c000000004D7B81C3000000000000002D
-t1299939779
-s45
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/English.lproj/MainMenu.xib
-c000000004D829500000000000001260F
-t1300403456
-s75279
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.h
-c000000004D7B81C3000000000000013B
-t1299939779
-s315
-i<Cocoa/Cocoa.h>
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m
-c000000004D7B81C3000000000000016F
-t1299939779
-s367
-i"PleechAppDelegate.h"
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/Pleech_Prefix.pch
-c000000004D7B81C3000000000000008F
-t1299939779
-s143
-i<Cocoa/Cocoa.h>
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/AppController.o
-t1300406203
-s25216
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/Pleech
-t1300406204
-s23704
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/Pleech.LinkFileList
-c000000004D829FAC000000000000019C
-t1300406188
-s412
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/PleechAppDelegate.o
-t1300406203
-s15284
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/main.o
-t1300406203
-s4892
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/AppController.o
-t1300406204
-s26268
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/Pleech
-t1300406204
-s23348
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/Pleech.LinkFileList
-c000000004D829FAC0000000000000199
-t1300406188
-s409
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/PleechAppDelegate.o
-t1300406204
-s15176
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/main.o
-t1300406204
-s4920
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/AppController.o
-t1300406203
-s34156
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/Pleech
-t1300406203
-s25504
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/Pleech.LinkFileList
-c000000004D829FAC00000000000001A2
-t1300406188
-s418
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/PleechAppDelegate.o
-t1300406203
-s21048
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/main.o
-t1300406203
-s5096
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app
-t1300406204
-s102
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app.dSYM
-t1300406204
-s102
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Info.plist
-t1300406188
-s940
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/MacOS/Pleech
-t1300406204
-s80692
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/PkgInfo
-t1300406188
-s8
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Resources/APPL.icns
-t1300406188
-s318277
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1300406189
-s92
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Resources/English.lproj/MainMenu.nib
-t1300406189
-s16777
-
-N/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m
-c000000004D7BD5D9000000000000013C
-t1299961305
-s316
-i<Cocoa/Cocoa.h>
-
-N/var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-aydgmfwfonjsfhcbtdabslrnzjgs/Pleech_Prefix.pch.gch
-t1300406201
-s52922128
-
-N/var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-ctaxxpoigeyfnedrakhffwwgnxid/Pleech_Prefix.pch.gch
-t1300406199
-s52794960
-
-N/var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-dzhhxqscumtqligomcncapnxurhb/Pleech_Prefix.pch.gch
-t1300406200
-s55559984
-
-NPleech-Info.plist
-c000000004D829FAC00000000000003F3
-t1300406188
-s1011
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies322098988#322098988#0(0"0(0#1#0"4300911832#0"0#
-
-CCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/i386/AppController.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s322099003.118091
-e322099003.574565
-r1
-xCompileC
-xbuild/Pleech.build/Release/Pleech.build/Objects-normal/i386/AppController.o
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m322099003#322099003#0(0"0(0#0#78"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m4300911832#1764"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-generated-files.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-own-target-headers.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-all-target-headers.hmap" -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-project-headers.hmap" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/include" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources/i386" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources" -include /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-dzhhxqscumtqligomcncapnxurhb/Pleech_Prefix.pch -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m" -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/AppController.o"0#
-
-CCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/i386/PleechAppDelegate.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s322099003.116536
-e322099003.530513
-r1
-xCompileC
-xbuild/Pleech.build/Release/Pleech.build/Objects-normal/i386/PleechAppDelegate.o
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m322099003#322099003#0(0"0(0#0#82"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m4300911832#1772"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-generated-files.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-own-target-headers.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-all-target-headers.hmap" -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-project-headers.hmap" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/include" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources/i386" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources" -include /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-dzhhxqscumtqligomcncapnxurhb/Pleech_Prefix.pch -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m" -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/PleechAppDelegate.o"0#
-
-CCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/i386/main.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s322099002.254329
-e322099003.116384
-r1
-xCompileC
-xbuild/Pleech.build/Release/Pleech.build/Objects-normal/i386/main.o
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m322099002#322099003#0(0"0(0#0#69"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m4300911832#1746"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-generated-files.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-own-target-headers.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-all-target-headers.hmap" -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-project-headers.hmap" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/include" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources/i386" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources" -include /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-dzhhxqscumtqligomcncapnxurhb/Pleech_Prefix.pch -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m" -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/main.o"0#
-
-CCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/AppController.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-s322099004.171260
-e322099004.510050
-r1
-xCompileC
-xbuild/Pleech.build/Release/Pleech.build/Objects-normal/ppc/AppController.o
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m322099004#322099004#0(0"0(0#0#78"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m4300911832#1771"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-generated-files.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-own-target-headers.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-all-target-headers.hmap" -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-project-headers.hmap" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/include" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources/ppc" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources" -include /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-ctaxxpoigeyfnedrakhffwwgnxid/Pleech_Prefix.pch -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m" -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/AppController.o"0#
-
-CCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/PleechAppDelegate.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-s322099003.530676
-e322099004.370924
-r1
-xCompileC
-xbuild/Pleech.build/Release/Pleech.build/Objects-normal/ppc/PleechAppDelegate.o
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m322099003#322099004#0(0"0(0#0#82"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m4300911832#1779"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-generated-files.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-own-target-headers.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-all-target-headers.hmap" -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-project-headers.hmap" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/include" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources/ppc" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources" -include /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-ctaxxpoigeyfnedrakhffwwgnxid/Pleech_Prefix.pch -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m" -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/PleechAppDelegate.o"0#
-
-CCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/main.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-s322099003.152059
-e322099004.316509
-r1
-xCompileC
-xbuild/Pleech.build/Release/Pleech.build/Objects-normal/ppc/main.o
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m322099003#322099004#0(0"0(0#0#69"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m4300911832#1753"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-generated-files.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-own-target-headers.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-all-target-headers.hmap" -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-project-headers.hmap" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/include" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources/ppc" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources" -include /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-ctaxxpoigeyfnedrakhffwwgnxid/Pleech_Prefix.pch -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m" -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/main.o"0#
-
-CCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/AppController.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s322099002.252873
-e322099003.405287
-r1
-xCompileC
-xbuild/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/AppController.o
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m322099002#322099003#0(0"0(0#0#78"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m4300911832#1770"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-generated-files.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-own-target-headers.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-all-target-headers.hmap" -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-project-headers.hmap" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/include" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources/x86_64" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources" -include /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-aydgmfwfonjsfhcbtdabslrnzjgs/Pleech_Prefix.pch -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/AppController.m" -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/AppController.o"0#
-
-CCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/PleechAppDelegate.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s322099002.251406
-e322099003.151879
-r1
-xCompileC
-xbuild/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/PleechAppDelegate.o
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m322099002#322099003#0(0"0(0#0#82"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m4300911832#1778"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-generated-files.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-own-target-headers.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-all-target-headers.hmap" -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-project-headers.hmap" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/include" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources/x86_64" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources" -include /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-aydgmfwfonjsfhcbtdabslrnzjgs/Pleech_Prefix.pch -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/PleechAppDelegate.m" -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/PleechAppDelegate.o"0#
-
-CCompileC build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/main.o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s322099002.249692
-e322099003.115664
-r1
-xCompileC
-xbuild/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/main.o
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m322099002#322099003#0(0"0(0#0#69"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m4300911832#1752"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-generated-files.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-own-target-headers.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-all-target-headers.hmap" -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-project-headers.hmap" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/include" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources/x86_64" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources" -include /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-aydgmfwfonjsfhcbtdabslrnzjgs/Pleech_Prefix.pch -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/main.m" -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/main.o"0#
-
-CCompileXIB "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/English.lproj/MainMenu.xib"
-s322098988.783040
-e322098989.943786
-r1
-xCompileXIB
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib322098988#322098989#0(0"0(0#0#89"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/English.lproj/MainMenu.xib4300911832#406"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/English.lproj/MainMenu.xib"0#
-
-CCopyStringsFile "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
-s322098988.781736
-e322098989.179000
-r1
-xCopyStringsFile
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings322098988#322098989#0(0"0(0#0#94"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/English.lproj/InfoPlist.strings4300911832#418"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Resources/English.lproj"0#
-
-CCpResource build/Release/Pleech.app/Contents/Resources/APPL.icns APPL.icns
-s322098988.786230
-e322098988.807990
-r1
-xCpResource
-xbuild/Release/Pleech.app/Contents/Resources/APPL.icns
-xAPPL.icns
-lSLF07#2@14"Copy APPL.icns322098988#322098988#0(0"0(0#0#72"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/APPL.icns4300911832#425"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/APPL.icns" "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Resources"0#
-
-CCreateUniversalBinary "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/MacOS/Pleech" normal "x86_64 i386 ppc"
-s322099004.554867
-e322099004.559793
-r1
-xCreateUniversalBinary
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/MacOS/Pleech
-xnormal
-xx86_64 i386 ppc
-lSLF07#2@93"CreateUniversalBinary build/Release/Pleech.app/Contents/MacOS/Pleech normal "x86_64 i386 ppc"322099004#322099004#0(0"0(0#0#78"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/x86_64 i386 ppc4300911832#615"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    /usr/bin/lipo -create "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/Pleech" "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/Pleech" "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/Pleech" -output "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/MacOS/Pleech"0#
-
-CGenerateDSYMFile "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app.dSYM" "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/MacOS/Pleech"
-s322099004.559929
-e322099004.677310
-r1
-xGenerateDSYMFile
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app.dSYM
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/MacOS/Pleech
-lSLF07#2@93"GenerateDSYMFile build/Release/Pleech.app.dSYM build/Release/Pleech.app/Contents/MacOS/Pleech322099004#322099004#0(0"0(0#0#109"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/MacOS/Pleech4300911832#314"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    /Developer/usr/bin/dsymutil "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/MacOS/Pleech" -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app.dSYM"0#
-
-CLd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/Pleech" normal i386
-s322099003.574719
-e322099004.182147
-r1
-xLd
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/Pleech
-xnormal
-xi386
-lSLF07#2@134"Link /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/Pleech322099003#322099004#0(0"0(0#0#0"4300911832#691"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" -filelist "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/Pleech.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/i386/Pleech"0#
-
-CLd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/Pleech" normal ppc
-s322099004.510202
-e322099004.554726
-r1
-xLd
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/Pleech
-xnormal
-xppc
-lSLF07#2@133"Link /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/Pleech322099004#322099004#0(0"0(0#0#0"4300911832#688"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" -filelist "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/Pleech.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/ppc/Pleech"0#
-
-CLd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/Pleech" normal x86_64
-s322099003.405602
-e322099004.170900
-r1
-xLd
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/Pleech
-xnormal
-xx86_64
-lSLF07#2@136"Link /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/Pleech322099003#322099004#0(0"0(0#0#0"4300911832#697"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" -filelist "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/Pleech.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Objects-normal/x86_64/Pleech"0#
-
-CProcessInfoPlistFile "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Info.plist" Pleech-Info.plist
-s322098988.775679
-e322098988.781578
-r1
-xProcessInfoPlistFile
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Info.plist
-xPleech-Info.plist
-lSLF07#2@25"Process Pleech-Info.plist322098988#322098988#0(0"0(0#0#80"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/Pleech-Info.plist4300911832#389"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    builtin-infoPlistUtility Pleech-Info.plist -genpkginfo "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app/Contents/Info.plist"0#
-
-CProcessPCH /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-aydgmfwfonjsfhcbtdabslrnzjgs/Pleech_Prefix.pch.gch Pleech_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s322098989.944154
-e322099002.249252
-r1
-xProcessPCH
-x/var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-aydgmfwfonjsfhcbtdabslrnzjgs/Pleech_Prefix.pch.gch
-xPleech_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile Pleech_Prefix.pch322098989#322099002#0(0"0(0#0#80"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/Pleech_Prefix.pch4300911832#1631"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-generated-files.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-own-target-headers.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-all-target-headers.hmap" -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-project-headers.hmap" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/include" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources/x86_64" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources" -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/Pleech_Prefix.pch" -o /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-aydgmfwfonjsfhcbtdabslrnzjgs/Pleech_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-ctaxxpoigeyfnedrakhffwwgnxid/Pleech_Prefix.pch.gch Pleech_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-s322098989.946646
-e322098999.992836
-r1
-xProcessPCH
-x/var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-ctaxxpoigeyfnedrakhffwwgnxid/Pleech_Prefix.pch.gch
-xPleech_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile Pleech_Prefix.pch322098989#322098999#0(0"0(0#0#80"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/Pleech_Prefix.pch4300911832#1635"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-generated-files.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-own-target-headers.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-all-target-headers.hmap" -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-project-headers.hmap" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/include" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources/ppc" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources" -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/Pleech_Prefix.pch" -o /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-ctaxxpoigeyfnedrakhffwwgnxid/Pleech_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-dzhhxqscumtqligomcncapnxurhb/Pleech_Prefix.pch.gch Pleech_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s322098989.945402
-e322099001.561987
-r1
-xProcessPCH
-x/var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-dzhhxqscumtqligomcncapnxurhb/Pleech_Prefix.pch.gch
-xPleech_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile Pleech_Prefix.pch322098989#322099001#0(0"0(0#0#80"/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/Pleech_Prefix.pch4300911832#1627"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-generated-files.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-own-target-headers.hmap" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-all-target-headers.hmap" -iquote "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/Pleech-project-headers.hmap" "-F/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/include" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources/i386" "-I/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Pleech.build/Release/Pleech.build/DerivedSources" -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/Pleech_Prefix.pch" -o /var/folders/A1/A1NIKNIrH8y7MYvgUgEFFk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pleech_Prefix-dzhhxqscumtqligomcncapnxurhb/Pleech_Prefix.pch.gch0#
-
-CTouch "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app"
-s322099004.677571
-e322099004.681037
-r1
-xTouch
-x/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app
-lSLF07#2@93"Touch /Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app322099004#322099004#0(0"0(0#0#0"4300911832#184"    cd "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech"    /usr/bin/touch -c "/Users/nadangergeo/Dropbox/Dynamo sök/Nadans lekstuga/Pleech/build/Release/Pleech.app"0#
-
