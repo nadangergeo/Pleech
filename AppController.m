@@ -56,12 +56,20 @@
 					"\n"
 					"set triggerURL to \"http://\" & pms & \"/system/players/\" & computerName & \".local/Application/playMedia?path=\" & episodePath & \"\\\\&key=\" & episodeKey\n"
 					"\n"
-					"do shell script \"curl \" & triggerURL\n"
-					"end if\n"
-					"\n"
-					"tell application \"Plex\"\n"
-					"activate\n"
-					"end tell";
+                    "--make sure Plex is running and then play episode\n"
+                    "repeat\n"
+                    "tell application \"System Events\"\n"
+                    "set processList to (name of every process)\n"
+                    "end tell\n"
+                    "if processList contains \"Plex\" then\n"
+                    "do shell script \"curl \" & triggerURL\n"
+                    "exit repeat\n"
+                    "else\n"
+                    "tell application \"Plex\" to activate\n"
+                    "delay (4)\n"
+                    "end if\n"
+                    "end repeat\n"
+					"end if";
 	
 	// allocate a memory pool for our NSString Objects
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
